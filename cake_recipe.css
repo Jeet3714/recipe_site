@@ -1,0 +1,103 @@
+
+body {
+    background-color: #8BA1BB;
+    font-family: Arial;
+}
+p.category {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 6px 18px;
+    margin-bottom:-70px;
+}
+div.category {
+    text-align:center;
+    margin-bottom: -15px
+
+}
+div.content {
+    background-color: white;
+    margin: 0px 10% 80px 10%;
+    padding: 30px;
+    box-shadow: 0px 0px 8px 10px rgba(0,0,0,0.2)
+}
+h1 {
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+p.description {
+    text-align: center;
+    display: inline-block;
+}
+div.description {
+    text-align: center;
+}
+div.separator {
+    height: 1px;
+    width: 100px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.image_with_table {
+    position: relative;
+    align:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+table.image_with_table {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: white;
+    background-color: #6C829DC0;
+    padding-bottom:8px;
+
+}
+img.img_prop {
+    display: block;
+    width: 100%;
+    max-height: 400px;
+    object-fit:cover;
+}
+div.column1 {
+    width: 45%;
+    display: inline-block;
+
+}
+div.column2 {
+    float: right;
+    width: 45%;
+}
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid #6C829DC0;
+}
+div.ingredients p{
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid lightgray;
+    padding: 8px 0;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+table.instruction_table p.number
+{
+    background-color: #6C829DC0;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+table.instruction_table td.instruction_step {
+    padding-left: 10px;
+    font-size: 14px;
+}
